@@ -46,6 +46,11 @@ body{
 	background-color: #eee;
 }
 
+#panel-warning-heading {
+	background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
 /*Logo*/
 #logo {
 	border-radius: 5px;
