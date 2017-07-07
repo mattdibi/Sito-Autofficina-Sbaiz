@@ -38,12 +38,14 @@ body{
 
 /* Map container */
 #map-container {
+	margin-top: 15px;
 	height: 500px;
 }
 
 /* Panels */
 .panel {
 	background-color: #eee;
+	margin-top: 15px;
 }
 
 #panel-warning-heading {
