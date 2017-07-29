@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Markup dei microdati aggiunto da Assistente per il markup dei dati strutturati di Google. -->
 <!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
 <html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -50,14 +51,14 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-	<div class="container marketing">
+	<div itemscope itemtype="http://schema.org/LocalBusiness" class="container marketing">
 
 		
 		<!--Jumbotron di presentazione-->
 		<div class="jumbotron">
 		  <div class="container" id="centered">
 				<!--<h1>Autofficina Sbaiz</h1>-->
-				<img class="img-fluid" id="logo" src="images/logo.jpg" alt="Logo Image"/>
+				<img itemprop="image" class="img-fluid" id="logo" src="images/logo.jpg" alt="Logo Image"/>
 				<h1><small>di Nonino Raffaele & C. S.n.c.</small></h1>
 				<p class="small">
 				  Officina Multimarca - Elettrauto - Preparazione Fuoristrada - Camper - Cariche Climatizzatore - Gommista
@@ -155,7 +156,7 @@
   				<div class="panel-body">
 					<ul style="list-style-type:none">
 					  <li><strong>Indirizzo:</strong> Via Tavagnacco 89/15</li>
-					  <li><strong>Telefono:</strong><a href="tel:+39-0432-480134"> +39 0432 480134</a></li>
+					  <li><strong>Telefono:</strong><a href="tel:+39-0432-480134"><span itemprop="telephone"> +39 0432 480134</span></a></li>
 					  <li><strong>Fax: </strong> 0432 490613</li>
 					  <li><strong>eMail: </strong> <a href="mailto:servicesbaiz@gmail.com">servicesbaiz@gmail.com</a></li>
 					  <li><strong>P.Iva: </strong> 02769630308</li>
@@ -234,7 +235,8 @@
 
       <!-- /END THE FEATURETTES -->
 
-    </div><!-- /.container -->
+    <meta itemprop="name" content="Autofficina Sbaiz">
+    <meta itemprop="url" content="http://autofficinasbaiz.altervista.org/"></div><!-- /.container -->
 	
 	<!-- FOOTER -->
 	<footer class="footer">
